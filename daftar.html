@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <section class="header">
+        <nav class="navbar" id="topnav">
+            <div class="navbar-right">
+                <a href="index.html">Beranda</a>
+                <a href="portofolio.html">Portofolio</a>
+                <a href="login.html" class="active">Login</a>
+                |
+                <a href="daftar.html" class="active">Daftar</a>
+            </div>
+        </nav>
+    </section>
+    <center>
+        <table width="40%">
+            <tr>
+                <td>
+                    <div class="kotak">
+                        <form action="#" id="form-daftar">
+                            <label for="Nama_Belakang">Nama Depan</label>
+                            <input type="text" id="Nama_Depan" name="Nama_Depan" placeholder="Masukan Nama Depan">
+
+                            <label for="Nama_Depan">Nama Belakang</label>
+                            <input type="text" id="Nama_Belakang" name="Nama_Belakang"
+                                placeholder="Masukan Nama Belakang">
+
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" placeholder=" Masukan Username Kamu">
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                                <option value="ina">Indonesia</option>
+                            </select>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Masukan Password Kamu">
+
+                            <label for="kpassword">Konfirmasi Password</label>
+                            <input type="password" id="kpassword" name="kpassword"
+                                placeholder="Masukan Kembali Password Kamu">
+                            <button type="submit" id="btn-submit">Submit</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script>
+    <script src="js/scriptdaftar.js"></script>
+</body>
+
+</html>
